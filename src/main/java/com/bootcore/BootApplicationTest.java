@@ -15,6 +15,7 @@ public class BootApplicationTest {
 		
 		Radio radio=context.getBean(Radio.class);
 		radio.listen(93.5f);
+		System.out.println(radio);
 	}
 
 }
