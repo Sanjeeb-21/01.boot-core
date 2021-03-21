@@ -13,6 +13,7 @@ public class BootApplicationTest {
 
 		ApplicationContext context=SpringApplication.run(BootApplicationTest.class, args);
 		
+               int i=10;
 		Radio radio=context.getBean(Radio.class);
 		radio.listen(93.5f);
 		System.out.println(radio);
